@@ -1,7 +1,12 @@
 import csv
+import os
+import sys
 
 csv_file = "data/result.csv"
 txt_file = "data/result.txt"
+
+# 确保 data 目录存在
+os.makedirs(os.path.dirname(txt_file), exist_ok=True)
 
 # 机场码 -> 国家中文名映射
 airport_map = {
@@ -22,10 +27,19 @@ airport_map = {
     "SCL": "智利", "MEX": "墨西哥", "LIM": "秘鲁",
 }
 
-with open(csv_file, "r", encoding="utf-8") as f_csv, open(txt_file, "w", encoding="utf-8") as f_txt:
-    reader = csv.DictReader(f_csv, delimiter="\t")
-    for row in reader:
-        ip_port = row["P 地址"]
-        airport_code = row.get("地区码", "")
-        country = airport_map.get(airport_code, airport_code)
-        f_txt.write(f"{ip_port}#{country}\n")
+if not os.path.isfile(csv_file):
+    print(f"❌ CSV 文件不存在: {csv_file}")
+    sys.exit(1)
+
+try:
+    with open(csv_file, "r", encoding="utf-8") as f_csv, open(txt_file, "w", encoding="utf-8") as f_txt:
+        reader = csv.DictReader(f_csv, delimiter="\t")
+        for row in reader:
+            ip_port = row.get("P 地址", "")
+            airport_code = row.get("地区码", "")
+            country = airport_map.get(airport_code, airport_code)
+            f_txt.write(f"{ip_port}#{country}\n")
+    print(f"✅ TXT 文件生成成功: {txt_file}")
+except Exception as e:
+    print(f"❌ 转换失败: {e}")
+    sys.exit(1)
