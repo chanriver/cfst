@@ -1,6 +1,5 @@
 name: CSV to TXT Conversion
 
-# 当 result.csv 文件被 push 时触发
 on:
   push:
     paths:
@@ -11,26 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ 拉取仓库内容
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ 设置 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      # 3️⃣ CSV 转 TXT
       - name: Convert CSV to TXT
         run: |
-          python3 <<'EOF'
+          python3 - << 'EOF'
 import csv
 
 csv_file = "data/result.csv"
 txt_file = "data/result.txt"
 
-# 机场码 -> 国家中文名映射
+# 机场码 -> 国家中文名
 airport_map = {
     # 亚洲
     "SIN": "新加坡", "HKG": "中国香港", "NRT": "日本", "KIX": "日本",
@@ -49,16 +45,18 @@ airport_map = {
     "SCL": "智利", "MEX": "墨西哥", "LIM": "秘鲁",
 }
 
-with open(csv_file, "r", encoding="utf-8") as f_csv, open(txt_file, "w", encoding="utf-8") as f_txt:
+with open(csv_file, "r", encoding="utf-8") as f_csv, \
+     open(txt_file, "w", encoding="utf-8") as f_txt:
+
     reader = csv.DictReader(f_csv, delimiter="\t")
     for row in reader:
         ip_port = row["P 地址"]
         airport_code = row.get("地区码", "")
         country = airport_map.get(airport_code, airport_code)
         f_txt.write(f"{ip_port}#{country}\n")
+
 EOF
 
-      # 4️⃣ 提交 TXT 文件回仓库
       - name: Commit and push TXT
         run: |
           git config user.name "github-actions[bot]"
