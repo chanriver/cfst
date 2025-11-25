@@ -12,9 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ 拉取仓库
+      # 1️⃣ Checkout 仓库，保证 push 权限
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
 
       # 2️⃣ 设置 Python
       - name: Set up Python
@@ -26,15 +28,26 @@ jobs:
       - name: List data folder
         run: ls -l data/
 
-      # 4️⃣ 运行 CSV -> TXT 脚本
+      # 4️⃣ CSV → TXT 转换
       - name: Convert CSV to TXT
         run: python3 scripts/csv2txt.py
 
-      # 5️⃣ 提交并推送 TXT 文件
+      # 5️⃣ 提交并 push TXT 文件
       - name: Commit and push TXT
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add data/result.txt
-          git commit -m "Auto convert CSV to TXT" || echo "No changes to commit"
+          git commit -m "Auto convert CSV to TXT" --allow-empty || echo "No changes to commit"
+
+          # 先拉取最新，避免 push 被拒
+          git pull --rebase
+
           git push
+
+      # 6️⃣ 输出 Git 状态，便于调试
+      - name: Show git status
+        run: |
+          git status
+          git log -3 --oneline
