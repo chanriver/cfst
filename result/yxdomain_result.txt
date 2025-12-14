@@ -1,9 +1,19 @@
-nrt.xxxxxxxx.nyc.mn:443#新加坡 🇸🇬 92.48ms 第三方优选域名
-www.wto.org:443#新加坡 🇸🇬 99.37ms 官方优选域名
-mfa.gov.ua:443#新加坡 🇸🇬 91.73ms 乌克兰政府官
-www.shopify.com:443#新加坡 🇸🇬 94.99ms Shopify官方优选
-cf.zhetengsha.eu.org:443#新加坡 🇸🇬 91.96ms 小一维护域名
-www.csgo.com:443#美国 🇺🇸 160.34ms 官方优选域名
-www.gov.se:443#美国 🇺🇸 171.94ms 瑞士官方域名
-fbi.gov:443#美国 🇺🇸 167.26ms 官方优选域名
-www.pcmag.com:443#美国 🇺🇸 157.34ms 官方优选域名
+nrt.xxxxxxxx.nyc.mn:443#Unknown  62.44ms 第三方优选域名
+777.ai7777777.xyz:443#Unknown  72.35ms 第三方优选域名
+cf.zhetengsha.eu.org:443#Unknown  86.12ms 小一维护域名
+cdns.doon.eu.org:443#Unknown  89.65ms 第三方优选域名
+saas.sin.fan:443#Unknown  91.94ms 第三方优选域名
+cdns.doon.eu.org:443#Unknown  92.01ms 第三方优选域名
+mfa.gov.ua:443#Unknown  92.30ms 乌克兰政府官
+www.wto.org:443#Unknown  96.20ms 官方优选域名
+cloudflare.cdnjson.com:443#Unknown  96.46ms 第三方优选域名
+jerry.cf.090227.xyz:443#Unknown  103.96ms CM维护域名
+cf.877774.xyz:443#Unknown  104.49ms 秋名山维护域名
+jerry.tencentapp.cn:443#Unknown  159.29ms ktff维护域名
+freeyx.cloudflare88.eu.org:443#Unknown  168.14ms 第三方优选域名
+www.gov.se:443#Unknown  168.49ms 瑞士官方域名
+cdn.2020111.xyz:443#Unknown  170.34ms 第三方优选域名
+gur.gov.ua:443#Unknown  179.28ms 官方优选域名
+cf.877771.xyz:443#Unknown  194.25ms 第三方优选域名
+www.wuhan.com:443#Unknown  195.01ms 第三方优选域名
+5h.com:443#Unknown  197.70ms 第三方优选域名
