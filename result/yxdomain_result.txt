@@ -1,20 +1,20 @@
-cloudflare.cnae.top:443#日本 🇯🇵 54.45ms 第三方优选域名
-bestcf.030101.xyz:443#美国 🇺🇸 163.48ms MingYu维护域名
-freeyx.cloudflare88.eu.org:443#美国 🇺🇸 160.90ms 第三方优选域名
-www.gov.se:443#美国 🇺🇸 169.08ms 瑞士官方域名
-www.csgo.com:443#美国 🇺🇸 155.66ms 官方优选域名
-jerry.cf.090227.xyz:443#新加坡 🇸🇬 89.64ms CM维护域名
-saas.sin.fan:443#新加坡 🇸🇬 89.59ms 第三方优选域名
-cloudflare.cdnjson.com:443#新加坡 🇸🇬 90.18ms 第三方优选域名
-cdns.doon.eu.org:443#新加坡 🇸🇬 89.94ms 第三方优选域名
-cfip.1323123.xyz:443#美国 🇺🇸 164.20ms 第三方优选域名
-www.wto.org:443#新加坡 🇸🇬 90.71ms 官方优选域名
-mfa.gov.ua:443#新加坡 🇸🇬 89.98ms 乌克兰政府官
-gur.gov.ua:443#美国 🇺🇸 159.87ms 官方优选域名
-www.pcmag.com:443#美国 🇺🇸 167.72ms 官方优选域名
-cf.zhetengsha.eu.org:443#新加坡 🇸🇬 90.74ms 小一维护域名
-cf.877774.xyz:443#新加坡 🇸🇬 89.77ms 秋名山维护域名
-jerry.cloudflare.182682.xyz:443#美国 🇺🇸 155.88ms 第三方优选域名
-jerry.tencentapp.cn:443#美国 🇺🇸 165.28ms ktff维护域名
-fbi.gov:443#美国 🇺🇸 163.81ms 官方优选域名
-xn--b6gac.eu.org:443#Unknown  188.33ms 第三方优选域名
+freeyx.cloudflare88.eu.org:443#Unknown  62.81ms 第三方优选域名
+nrt.xxxxxxxx.nyc.mn:443#Unknown  63.58ms 第三方优选域名
+777.ai7777777.xyz:443#Unknown  66.34ms 第三方优选域名
+jerry.cf.090227.xyz:443#Unknown  89.36ms CM维护域名
+www.shopify.com:443#Unknown  89.67ms Shopify官方优选
+saas.sin.fan:443#Unknown  89.71ms 第三方优选域名
+mfa.gov.ua:443#Unknown  89.81ms 乌克兰政府官
+cdns.doon.eu.org:443#Unknown  90.66ms 第三方优选域名
+cloudflare.czkcdn.cn:443#Unknown  150.70ms 第三方优选域名
+www.gov.se:443#Unknown  167.09ms 瑞士官方域名
+whatismyipaddress.com:443#Unknown  167.15ms 官方优选域名
+www.csgo.com:443#Unknown  167.16ms 官方优选域名
+cloudflare.cnae.top:443#Unknown  167.54ms 第三方优选域名
+gur.gov.ua:443#Unknown  168.67ms 官方优选域名
+bestcf.030101.xyz:443#Unknown  174.16ms MingYu维护域名
+jerry.tencentapp.cn:443#Unknown  174.48ms ktff维护域名
+cfip.1323123.xyz:443#Unknown  176.14ms 第三方优选域名
+cf.877771.xyz:443#Unknown  180.96ms 第三方优选域名
+www.wuhan.com:443#Unknown  181.65ms 第三方优选域名
+5h.com:443#Unknown  185.63ms 第三方优选域名
