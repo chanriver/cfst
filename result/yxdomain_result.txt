@@ -1,9 +1,20 @@
-nrt.xxxxxxxx.nyc.mn:443#Unknown  63.58ms 第三方优选域名
-mfa.gov.ua:443#Unknown  89.81ms 乌克兰政府官
-cloudflare.czkcdn.cn:443#Unknown  150.70ms 第三方优选域名
-www.gov.se:443#Unknown  167.09ms 瑞士官方域名
-www.csgo.com:443#Unknown  167.16ms 官方优选域名
-cfip.1323123.xyz:443#Unknown  176.14ms 第三方优选域名
-cf.877771.xyz:443#Unknown  180.96ms 第三方优选域名
-5h.com:443#Unknown  181.65ms 第三方优选域名
-www.wuhan.com:443#Unknown  185.63ms 第三方优选域名
+saas.sin.fan:443#新加坡 🇸🇬 91.12ms 第三方优选域名
+cdns.doon.eu.org:443#新加坡 🇸🇬 91.05ms 第三方优选域名
+www.wto.org:443#新加坡 🇸🇬 89.98ms 官方优选域名
+777.ai7777777.xyz:443#日本 🇯🇵 64.48ms 第三方优选域名
+jerry.cf.090227.xyz:443#新加坡 🇸🇬 91.11ms CM维护域名
+www.shopify.com:443#新加坡 🇸🇬 89.35ms Shopify官方优选
+mfa.gov.ua:443#新加坡 🇸🇬 90.63ms 乌克兰政府官
+cloudflare.cdnjson.com:443#新加坡 🇸🇬 89.86ms 第三方优选域名
+www.wto.org:443#新加坡 🇸🇬 90.40ms 官方优选域名
+cf.zhetengsha.eu.org:443#新加坡 🇸🇬 90.91ms 小一维护域名
+nrt.xxxxxxxx.nyc.mn:443#日本 🇯🇵 58.29ms 第三方优选域名
+freeyx.cloudflare88.eu.org:443#美国 🇺🇸 165.29ms 第三方优选域名
+yx.887141.xyz:443#荷兰 🇳🇱 181.63ms 第三方优选域名
+gur.gov.ua:443#美国 🇺🇸 163.53ms 官方优选域名
+www.gov.se:443#美国 🇺🇸 170.28ms 瑞士官方域名
+xn--b6gac.eu.org:443#荷兰 🇳🇱 184.58ms 第三方优选域名
+jerry.tencentapp.cn:443#美国 🇺🇸 170.65ms ktff维护域名
+cf.877771.xyz:443#Unknown  190.59ms 第三方优选域名
+cdn.2020111.xyz:443#Unknown  166.49ms 第三方优选域名
+www.visa.cn:443#Unknown  195.11ms visa中国优选
